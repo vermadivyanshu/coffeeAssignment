@@ -1,0 +1,19 @@
+{
+  "name": "coffeeassignment",
+  "version": "1.0.0",
+  "description": "Coffee Assignment",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers coffee:coffee-script/register",
+    "dev_build": "coffee main.coffee"
+  },
+  "author": "Divyanshu Verma",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.1.2",
+    "coffee-script": "^1.12.7",
+    "mocha": "^4.0.1",
+    "pluralize": "^7.0.0",
+    "prompt": "^1.0.0"
+  }
+}
